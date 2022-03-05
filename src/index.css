@@ -1,0 +1,28 @@
+
+
+.header {
+  background-color: #F4F6F7;
+  min-height: 100vh;
+} 
+
+.navbar {
+  height: 15vh;
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.row> * + * {
+  margin-left: 6em;
+}
+
+
